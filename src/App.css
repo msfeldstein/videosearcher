@@ -1,0 +1,46 @@
+#root,
+.App {
+  height: 100%;
+  overflow: hidden;
+  margin: auto;
+  max-width: 640px;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+}
+.layout {
+  height: 100%;
+  overflow: hidden;
+}
+
+.search-box {
+  width: 100%;
+  font-size: 32px;
+  outline: transparent;
+  border: 0;
+  border-bottom: 1px solid black;
+  padding: 8px;
+}
+
+.result-list {
+  text-align: left;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.result-item {
+  cursor: pointer;
+  font-size: 18px;
+  padding: 12px;
+  border-bottom: 1px solid #ccc;
+}
+
+.result-item:hover {
+  background-color: #efefef;
+}
+
+video {
+  box-shadow: 0 0 5px lightgray;
+  margin: auto;
+  width: 100%;
+  aspect-ratio: 1280 / 720;
+}
